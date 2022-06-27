@@ -1,0 +1,98 @@
+*{
+    margin: .5% 1%
+}
+
+* p,* h1, * input {
+    margin: 0;
+}
+
+.navbar{
+    background-color: white!important;
+    height: 60px!important;
+    cursor: pointer!important;
+}
+
+.navbar a{
+    color: black;
+}
+
+h6{
+    text-align: center;
+    color: rgb(177, 174, 174);
+    font-size: 15px!important;
+    padding-top: 20px;
+}
+.dropdown-menu{
+    background-color: rgb(250, 246, 246)!important;
+    
+}
+.dropdown-menu a {
+    font-size:10px ;
+}
+
+.dropdown-menu a img{
+    margin-right: 10px;
+}
+.collapse{
+    margin-left: 10px!important;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+}
+
+.d-flex{
+    margin-right: 10%!important;
+    }
+
+.imgHero{
+    width: 80%;
+    height: 100%;
+}
+
+.left{
+    margin-top: 20%;
+    margin-left: 20%;
+    }
+
+.left p, .left input{
+    margin-top: 7%;
+}
+.left input{
+    margin-top: 7%;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    width: 30%;
+    font-size: larger;
+}
+
+.reg{
+    border: solid rgb(126, 125, 125) 1px;
+    border-radius: 10px;
+    padding: 1px;
+
+}
+
+.icons{
+    margin-left: 25px;
+    margin-top: 9%;
+}
+.icons img{
+    margin-left: -30px;
+    width: 60px;
+}
+
+
+.left h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.right{
+    margin-top: 5%;
+    margin-left: 20%;
+}
